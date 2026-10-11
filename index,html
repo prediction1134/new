@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Diksha Malik Telegram Channel</title>
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1038532095688080');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1038532095688080&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        /* Non-scrollable Full Screen Setup */
+        html, body {
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            background: linear-gradient(135deg, #0a192f, #112240, #020c1b);
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        /* Glassmorphism Card Container */
+        .card-container {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 24px 20px;
+            width: 90%;
+            max-width: 380px;
+            max-height: 92vh;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1;
+        }
+
+        /* Pulse Badge */
+        .badge {
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            color: #ffffff;
+            padding: 5px 14px;
+            border-radius: 50px;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 15px rgba(255, 75, 43, 0.5);
+            animation: pulse-badge 1.6s infinite;
+        }
+
+        @keyframes pulse-badge {
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 75, 43, 0.7); }
+            70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(255, 75, 43, 0); }
+            100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 75, 43, 0); }
+        }
+
+        /* Profile Image Container */
+        .profile-box {
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            border: 3px solid #0088cc;
+            margin-bottom: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 136, 204, 0.5);
+            background: #102a45;
+            flex-shrink: 0;
+        }
+
+        .profile-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Channel Name Styling */
+        .channel-name {
+            font-size: 21px;
+            font-weight: 800;
+            margin-bottom: 4px;
+            color: #00a8ff;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+        }
+
+        p.subtitle {
+            font-size: 12px;
+            color: #8892b0;
+            margin-bottom: 14px;
+            line-height: 1.4;
+        }
+
+        /* Highlight List */
+        .features {
+            text-align: left;
+            width: 100%;
+            margin-bottom: 16px;
+            background: rgba(0, 0, 0, 0.25);
+            padding: 12px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .features li {
+            list-style: none;
+            margin-bottom: 8px;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            color: #e6f1ff;
+            font-weight: 500;
+        }
+
+        .features li:last-child {
+            margin-bottom: 0;
+        }
+
+        .features li span {
+            color: #64ffda;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        /* Telegram Main Blinking/Glowing Button */
+        .join-btn {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: linear-gradient(45deg, #0088cc, #00a8ff);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 16px;
+            font-size: 15px;
+            font-weight: 700;
+            border-radius: 50px;
+            letter-spacing: 0.5px;
+            animation: blink-glow 1.2s infinite alternate;
+            transition: all 0.3s ease;
+        }
+
+        @keyframes blink-glow {
+            0% {
+                transform: scale(1);
+                box-shadow: 0 0 8px rgba(0, 136, 204, 0.5);
+                filter: brightness(1);
+            }
+            100% {
+                transform: scale(1.03);
+                box-shadow: 0 0 22px rgba(0, 168, 255, 0.9), 0 0 30px rgba(0, 136, 204, 0.7);
+                filter: brightness(1.25);
+            }
+        }
+
+        .join-btn:hover {
+            background: linear-gradient(45deg, #0077b5, #0099e6);
+        }
+
+        /* Bottom Corner Ad Contact Button */
+        .ad-contact-corner {
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            background: rgba(15, 23, 42, 0.95);
+            border: 1px solid rgba(0, 136, 204, 0.6);
+            padding: 8px 14px;
+            border-radius: 50px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(8px);
+            z-index: 1000;
+        }
+
+        .ad-contact-corner a {
+            color: #00a8ff;
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .ad-contact-corner a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Card View -->
+    <div class="card-container">
+        <div class="badge">🔴 LIVE MATCH PREDICTIONS</div>
+        
+        <!-- Profile Image -->
+        <div class="profile-box">
+            <img src="https://raw.githubusercontent.com/prediction1134/cricket121/01501df66ceb568f01f582121378c817ddde09fe/tantriik.jpg" alt="Cricket Logo">
+        </div>
+
+        <!-- Channel Name -->
+        <h1 class="channel-name">Diksha Malik</h1>
+        
+        <p class="subtitle">100% Accurate Toss, Match Report & Fantasy Cricket Tips!</p>
+
+        <ul class="features">
+            <li><span>✓</span> Fast Toss & Match Session Updates</li>
+            <li><span>✓</span> Daily IPL & T20 League Tips</li>
+            <li><span>✓</span> Free Winning Fantasy Dream Teams</li>
+        </ul>
+
+        <!-- TELEGRAM CHANNEL JOIN BUTTON -->
+        <a href="https://t.me/+Jvn-j3_gb3hiN2Q1" class="join-btn" onclick="trackLead()" target="_blank">
+            ✈ JOIN TELEGRAM CHANNEL
+        </a>
+    </div>
+
+    <!-- BOTTOM RIGHT CORNER AD SETUP CONTACT -->
+    <div class="ad-contact-corner">
+        <a href="https://t.me/YOUR_CONTACT_USERNAME" target="_blank">
+            📢 @AdDukan1
+        </a>
+    </div>
+
+    <script>
+        function trackLead() {
+            if(typeof fbq !== 'undefined') {
+                fbq('track', 'Lead');
+            }
+        }
+    </script>
+</body>
+</html>
